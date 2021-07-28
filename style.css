@@ -63,11 +63,11 @@
   box-sizing: border-box;
 }
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
   background-color: var(--DarkBlueFooter);
-  overflow-x: hidden;
 }
 .navbar {
   width: 100%;
