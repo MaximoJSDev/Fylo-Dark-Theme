@@ -24,7 +24,7 @@ sr.reveal(".navImg", {
   origin: "right",
   distance: "-125px",
   easing: "cubic-bezier(.48,.21,.64,.82)",
-  delay: 100
+  delay: 0,
 });
 
 sr.reveal(".menuLinks", {
@@ -32,7 +32,7 @@ sr.reveal(".menuLinks", {
   origin: "left",
   distance: "-125px",
   easing: "cubic-bezier(.48,.21,.64,.82)",
-  delay: 100
+  delay: 0,
 });
 
 sr.reveal(".article", {
@@ -40,7 +40,7 @@ sr.reveal(".article", {
   origin: "top",
   distance: "-120px",
   easing: "cubic-bezier(.65,.36,.61,.65)",
-  delay: 700
+  delay: 600,
 });
 
 sr.reveal("#ultimate", {
@@ -48,7 +48,7 @@ sr.reveal("#ultimate", {
   origin: "right",
   distance: "-300px",
   easing: "cubic-bezier(.65,.36,.61,.65)",
-  delay: 700
+  delay: 600,
 });
 
 sr.reveal(".card", {
@@ -56,7 +56,7 @@ sr.reveal(".card", {
   origin: "right",
   distance: "-240px",
   easing: "cubic-bezier(.65,.36,.61,.65)",
-  delay: 700
+  delay: 600,
 });
 
 sr.reveal(".form", {
@@ -64,7 +64,7 @@ sr.reveal(".form", {
   origin: "left",
   distance: "-200px",
   easing: "cubic-bezier(.65,.36,.61,.65)",
-  delay: 500
+  delay: 500,
 });
 
 sr.reveal(".footer", {
@@ -72,5 +72,5 @@ sr.reveal(".footer", {
   origin: "top",
   distance: "-250px",
   easing: "cubic-bezier(.38,.38,.76,.78)",
-  delay: 650
+  delay: 650,
 });

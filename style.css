@@ -111,7 +111,11 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 45px 0 6em;
-  background: linear-gradient( to top, var(--DarkBlueMain) 28%, var(--DarkBlueIntro) 31% );
+  background: linear-gradient(
+    to top,
+    var(--DarkBlueMain) 28%,
+    var(--DarkBlueIntro) 31%
+  );
   font-family: var(--FamilyHeader);
   overflow: hidden;
 }
@@ -367,7 +371,7 @@ body {
   color: #ff3333;
   margin-top: 5px;
 }
-.invalido {  
+.invalido {
   visibility: visible;
 }
 
@@ -462,8 +466,12 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .header {    
-    background: linear-gradient( to top, var(--DarkBlueMain) 10%, var(--DarkBlueIntro) 20% );
+  .header {
+    background: linear-gradient(
+      to top,
+      var(--DarkBlueMain) 10%,
+      var(--DarkBlueIntro) 20%
+    );
   }
   .header__wave {
     bottom: -104%;
@@ -530,11 +538,15 @@ body {
   .header {
     padding-left: 13px;
     padding-right: 13px;
-    background: linear-gradient( to top, var(--DarkBlueMain) 46%, var(--DarkBlueIntro) 50% );
+    background: linear-gradient(
+      to top,
+      var(--DarkBlueMain) 46%,
+      var(--DarkBlueIntro) 50%
+    );
   }
   .header__img {
     width: 21em;
-    margin: 41px 0 10px
+    margin: 41px 0 10px;
   }
   .header__wave {
     bottom: -33%;
