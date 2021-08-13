@@ -18,7 +18,6 @@ send.addEventListener("click", (e) => {
 });
 
 window.sr = ScrollReveal();
-
 sr.reveal(".navImg", {
   duration: 1200,
   origin: "right",
@@ -26,7 +25,6 @@ sr.reveal(".navImg", {
   easing: "cubic-bezier(.48,.21,.64,.82)",
   delay: 0,
 });
-
 sr.reveal(".menuLinks", {
   duration: 1200,
   origin: "left",
@@ -34,7 +32,6 @@ sr.reveal(".menuLinks", {
   easing: "cubic-bezier(.48,.21,.64,.82)",
   delay: 0,
 });
-
 sr.reveal(".article", {
   duration: 1300,
   origin: "top",
@@ -42,7 +39,6 @@ sr.reveal(".article", {
   easing: "cubic-bezier(.65,.36,.61,.65)",
   delay: 600,
 });
-
 sr.reveal("#ultimate", {
   duration: 1400,
   origin: "right",
@@ -50,7 +46,6 @@ sr.reveal("#ultimate", {
   easing: "cubic-bezier(.65,.36,.61,.65)",
   delay: 600,
 });
-
 sr.reveal(".card", {
   duration: 1200,
   origin: "right",
@@ -58,7 +53,6 @@ sr.reveal(".card", {
   easing: "cubic-bezier(.65,.36,.61,.65)",
   delay: 600,
 });
-
 sr.reveal(".form", {
   duration: 1200,
   origin: "left",
@@ -66,7 +60,6 @@ sr.reveal(".form", {
   easing: "cubic-bezier(.65,.36,.61,.65)",
   delay: 500,
 });
-
 sr.reveal(".footer", {
   duration: 2000,
   origin: "top",
