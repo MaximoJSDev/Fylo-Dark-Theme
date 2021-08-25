@@ -517,7 +517,10 @@ body {
   .article {
     width: auto;
     margin-left: 17px;
-    margin-right: 15px;
+    margin-right: 17px;
+  }
+  .stay-productive__h3 {
+    font-size: 1.9em;
   }
   .form {
     padding: 40px 26px;
